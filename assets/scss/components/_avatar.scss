@@ -6,15 +6,16 @@
 
     &__container {
         @include hz-center;
-        width: 100%;
-        clip-path: circle(50% at 50% 56%);
-        height: $width-right-col - 8rem;
+        width: 90%;
+        height: $width-right-col - 1rem;
+        clip-path: circle(45%);
         text-align: center;
         transition: all 0.3s cubic-bezier($cubic);
+        top: -2.5rem;
 
-        &:hover {
-            width: 110%;
-        }
+        // &:hover {
+        //     width: 91%;
+        // }
     }
 
     &__img {
@@ -24,7 +25,7 @@
         @include all-center;
 
         &:hover {
-            width: 105%;
+            width: 114%;
         }
     }
 }
