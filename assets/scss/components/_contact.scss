@@ -18,7 +18,13 @@
             margin-bottom: 0.5rem;
         }
         & > span {
-            @include vt-center;
+            position: absolute;
+            top: 38%;
+            transform: translateY(-50%);
+        }
+        & > span > a {
+            color: inherit;
+            text-decoration: inherit;
         }
     }
 }
